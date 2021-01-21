@@ -1,0 +1,32 @@
+html {
+  background-color: aquamarine;
+}
+
+#display {
+  background-color: rgb(164, 193, 247);
+}
+
+#drum-machine {
+  background-color: antiquewhite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 440px;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+}
+
+.drum-pad:active {
+  width: 97px;
+  height: 97px;
+  transform: translateY(3px);
+}
+.drum-pad-active {
+  width: 97px;
+  height: 97px;
+  transform: translateY(3px);
+}

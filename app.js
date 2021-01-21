@@ -38,6 +38,7 @@ $(document).ready(() => {
     switch (e.keyCode) {
       case 81:
         $("#Q")[0].play();
+        $("#heater1").addClass("drump-pad-active");
         $("#display").html("Heater 1");
         break;
       case 87:
@@ -73,7 +74,7 @@ $(document).ready(() => {
         $("#display").html("Closed HH");
         break;
       default:
-        console.log("Key pressed");
+        break;
     }
   });
 });

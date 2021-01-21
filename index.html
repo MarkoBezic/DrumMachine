@@ -10,82 +10,116 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="drum-machine" class="container-fluid text-center">
-      <div id="display"></div>
-      <button id="heater1" class="drum-pad">
-        Q
-        <audio
-          class="clip"
-          id="Q"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"
-        ></audio>
-      </button>
-      <button id="heater2" class="drum-pad">
-        W
-        <audio
-          class="clip"
-          id="W"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"
-        ></audio>
-      </button>
-      <button id="heater3" class="drum-pad">
-        E
-        <audio
-          class="clip"
-          id="E"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"
-        ></audio>
-      </button>
-      <button id="heater4" class="drum-pad">
-        A
-        <audio
-          class="clip"
-          id="A"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"
-        ></audio>
-      </button>
-      <button id="clap" class="drum-pad">
-        S
-        <audio
-          class="clip"
-          id="S"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
-        ></audio>
-      </button>
-      <button id="openhh" class="drum-pad">
-        D
-        <audio
-          class="clip"
-          id="D"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"
-        ></audio>
-      </button>
-      <button id="kicknhat" class="drum-pad">
-        Z
-        <audio
-          class="clip"
-          id="Z"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"
-        ></audio>
-      </button>
-      <button id="kick" class="drum-pad">
-        X
-        <audio
-          class="clip"
-          id="X"
-          src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"
-        ></audio>
-      </button>
-      <button id="closedhh" class="drum-pad">
-        C
-        <audio
-          class="clip"
-          id="C"
-          src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
-        ></audio>
-      </button>
+    <div
+      id="drum-machine"
+      class="container-fluid text-center w-50 border border-dark rounded"
+    >
+      <div class="row">
+        <div class="col">
+          <div id="display" class="p-2 m-3 border w-75 ms-auto me-auto">
+            Drum Machine
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button id="heater1" class="drum-pad btn btn-warning p-4 m-2">
+            Q
+            <audio
+              class="clip"
+              id="Q"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"
+            ></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button id="heater2" class="drum-pad btn btn-warning p-4 m-2">
+            W
+            <audio
+              class="clip"
+              id="W"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"
+            ></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button id="heater3" class="drum-pad btn btn-warning p-4 m-2">
+            E
+            <audio
+              class="clip"
+              id="E"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"
+            ></audio>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button id="heater4" class="drum-pad btn btn-warning p-4 m-2">
+            A
+            <audio
+              class="clip"
+              id="A"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"
+            ></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button id="clap" class="drum-pad btn btn-warning p-4 m-2">
+            S
+            <audio
+              class="clip"
+              id="S"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
+            ></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button id="openhh" class="drum-pad btn btn-warning p-4 m-2">
+            D
+            <audio
+              class="clip"
+              id="D"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"
+            ></audio>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button id="kicknhat" class="drum-pad btn btn-warning p-4 m-2">
+            Z
+            <audio
+              class="clip"
+              id="Z"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"
+            ></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button id="kick" class="drum-pad btn btn-warning p-4 m-2">
+            X
+            <audio
+              class="clip"
+              id="X"
+              src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"
+            ></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button id="closedhh" class="drum-pad btn btn-warning p-4 m-2">
+            C
+            <audio
+              class="clip"
+              id="C"
+              src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
+            ></audio>
+          </button>
+        </div>
+      </div>
     </div>
 
     <script
