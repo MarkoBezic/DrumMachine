@@ -16,8 +16,8 @@ html {
 }
 
 #drum-machine {
-  min-width: 500px;
-  min-height: 440px;
+  min-width: 375px;
+  min-height: 400px;
 }
 
 .drum-pad {
