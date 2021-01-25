@@ -38,7 +38,6 @@ $(document).ready(() => {
     switch (e.keyCode) {
       case 81:
         $("#Q")[0].play();
-        $("Q").addClass("drum-pad-active");
         $("#display").html("Heater 1");
         $("#heater1").addClass("drum-pad-active");
         $(document).keyup(() => {
