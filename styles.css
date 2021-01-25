@@ -7,7 +7,7 @@ html {
 }
 
 #drum-machine {
-  background-color: antiquewhite;
+  background-color: grey;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -16,22 +16,32 @@ html {
 }
 
 #drum-machine {
-  min-width: 375px;
-  min-height: 400px;
+  min-width: 376px;
+  min-height: 430px;
+  max-width: 376px;
+  max-height: 430px;
+  box-shadow: 8px 8px;
 }
 
 .drum-pad {
   width: 100px;
   height: 100px;
+  box-shadow: 4px 4px;
+}
+
+.drum-pad:focus {
+  outline: none;
 }
 
 .drum-pad:active {
-  width: 97px;
-  height: 97px;
-  transform: translateY(3px);
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px;
+  background-color: rgb(241, 240, 136);
+  color: white;
 }
 .drum-pad-active {
-  width: 97px;
-  height: 97px;
-  transform: translateY(3px);
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px;
+  background-color: rgb(241, 240, 136);
+  color: white;
 }
